@@ -8,10 +8,27 @@
 import SwiftUI
 
 struct MyListItemsView: View {
+    @ObservedObject var myListItemVM: MyListItemsViewModel
+
     var body: some View {
         VStack(alignment: .leading) {
-            List(1...10, id: \.self) { index in
-                Text("Item \(index)")
+            List {
+                ForEach(myListItemVM.items) { item in
+                    ListItemCellView(
+                        item: item,
+                        onListItemDelete: { item in
+                            myListItemVM.onItemDelete?(item)
+                        },
+                        onUpdate: { title, dueDate in
+                            item.updateItem(title: title, dueDate: dueDate)
+                        })
+                }
+                AddNewListItemView { title, dueDate in
+                    if let onItemAdded = myListItemVM.onItemAdded {
+                        onItemAdded(title, dueDate)
+
+                    }
+                }
             }
         }
     }
@@ -19,6 +36,6 @@ struct MyListItemsView: View {
 
 struct MyListItemsView_Previews: PreviewProvider {
     static var previews: some View {
-        MyListItemsView()
+        MyListItemsView(myListItemVM: MyListItemsViewModel(items: [], onItemAdded: nil, onItemDelete: nil))
     }
 }

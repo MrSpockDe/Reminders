@@ -30,9 +30,9 @@ extension DueDate {
 
     var title: String {
         switch self {
-        case .today: return "Today"
-        case .tomorrow: return "Tomorrow"
-        case .yesterday: return "Yesterday"
+        case .today: return NSLocalizedString("Today", comment: "this day")
+        case .tomorrow: return NSLocalizedString("Tomorrow", comment: "next day")
+        case .yesterday: return NSLocalizedString("Yesterday", comment: "last day")
         case .custom(let date): return date.formatAsString
         }
     }

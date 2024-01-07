@@ -16,6 +16,7 @@ class CoreDataManager {
     static let shared = CoreDataManager()
 
     private init() {
+        // register the NSColor <-> Data transformer
         ValueTransformer.setValueTransformer(
             NSColorTransformer(),
             forName: NSValueTransformerName("NSColorTransformer"))

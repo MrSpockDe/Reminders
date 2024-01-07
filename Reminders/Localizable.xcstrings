@@ -21,6 +21,17 @@
         }
       }
     },
+    "Add Date:" : {
+      "comment" : "Datum einstellen",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fälligkeitsdatum hinzufügen:"
+          }
+        }
+      }
+    },
     "Add List" : {
       "localizations" : {
         "de" : {
@@ -51,12 +62,42 @@
         }
       }
     },
-    "Color" : {
+    "Change" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Farbe"
+            "value" : "Aktualisieren"
+          }
+        }
+      }
+    },
+    "Clear" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datum löschen"
+          }
+        }
+      }
+    },
+    "Color:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farbe:"
+          }
+        }
+      }
+    },
+    "Custom" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selbstgewählt"
           }
         }
       }
@@ -81,17 +122,29 @@
         }
       }
     },
-    "Item %lld" : {
+    "Due Date:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Liste %lld"
+            "value" : "Fälligkeitsdatum:"
+          }
+        }
+      }
+    },
+    "Edit entry" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eintrag bearbeiten"
           }
         }
       }
     },
     "My Lists" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -121,12 +174,85 @@
         }
       }
     },
+    "Notes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notiz"
+          }
+        }
+      }
+    },
     "OK" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern"
+          }
+        }
+      }
+    },
+    "Today" : {
+      "comment" : "this day",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute"
+          }
+        }
+      }
+    },
+    "Today \n %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute %@"
+          }
+        }
+      }
+    },
+    "Tomorrow" : {
+      "comment" : "next day",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morgen"
+          }
+        }
+      }
+    },
+    "Tomorrow \n %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morgen %@"
+          }
+        }
+      }
+    },
+    "Yesterday" : {
+      "comment" : "last day",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestern"
           }
         }
       }

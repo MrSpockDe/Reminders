@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "92FCA3A2-53B9-4760-9278-571C8FA7A560"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F71110B-0B87-4111-9EC5-4C3B2F12D683"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminders/Views/AddNewListItemView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77B965F3-549F-4B0B-AA41-4039F3531E42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminders/Views/ListItemCellView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "77B965F3-549F-4B0B-AA41-4039F3531E42 - 72c3f7256c18e776"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; Reminders.AddNewListItemView in Reminders.ListItemCellView.body.getter : some"
+                  moduleName = "Reminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albert/XCodeProjects/Reminders/Reminders/Views/ListItemCellView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "77B965F3-549F-4B0B-AA41-4039F3531E42 - 7cf2b096ddcac691"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String, Swift.Optional&lt;Foundation.Date&gt;) -&gt; () in closure #3 () -&gt; Reminders.AddNewListItemView in Reminders.ListItemCellView.body.getter : some"
+                  moduleName = "Reminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albert/XCodeProjects/Reminders/Reminders/Views/ListItemCellView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8A05407-7AA7-4284-BB42-EDA400B58611"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminders/ViewModels/MyListItemViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "dueDate"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D83B5605-439A-4F7C-B09D-21BFCCB3DE75"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminders/ViewModels/MyListsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "controllerDidChangeContent(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D83B5605-439A-4F7C-B09D-21BFCCB3DE75 - 3984a62366460196"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminders.MyListsView.Viewmodel.controllerDidChangeContent(__C.NSFetchedResultsController&lt;__C.NSFetchRequestResult&gt;) -&gt; ()"
+                  moduleName = "Reminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albert/XCodeProjects/Reminders/Reminders/ViewModels/MyListsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "1761">
+               </Location>
+               <Location
+                  uuid = "D83B5605-439A-4F7C-B09D-21BFCCB3DE75 - 3984a62366460639"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reminders.MyListsView.Viewmodel.controllerDidChangeContent(__C.NSFetchedResultsController&lt;__C.NSFetchRequestResult&gt;) -&gt; ()"
+                  moduleName = "Reminders"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albert/XCodeProjects/Reminders/Reminders/ViewModels/MyListsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "1761">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12A34333-88DD-4D00-A80C-D1A2642A7FCB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reminders/ViewModels/MyListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "setItems()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

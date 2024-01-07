@@ -27,7 +27,13 @@
 		5085436E2910627D00D9381C /* NSColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085436D2910627D00D9381C /* NSColorTransformer.swift */; };
 		50854370291069B800D9381C /* MyListsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085436F291069B800D9381C /* MyListsViewModel.swift */; };
 		5085437229106DFD00D9381C /* MyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085437129106DFD00D9381C /* MyListViewModel.swift */; };
+		509B8E5A2B1B8BF20036A505 /* AddNewListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B8E592B1B8BF20036A505 /* AddNewListItemView.swift */; };
+		509B8E5C2B1B8E600036A505 /* DueDateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B8E5B2B1B8E600036A505 /* DueDateSelectionView.swift */; };
+		509B8E5E2B1BA66D0036A505 /* MyListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B8E5D2B1BA66D0036A505 /* MyListItem.swift */; };
+		509B8E602B1BB2470036A505 /* ListItemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B8E5F2B1BB2470036A505 /* ListItemCellView.swift */; };
+		509B8E682B1FB5D60036A505 /* ListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B8E672B1FB5D60036A505 /* ListItemViewModel.swift */; };
 		50C153DE2929337C00F42707 /* MyListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C153DD2929337C00F42707 /* MyListsView.swift */; };
+		50E31CCA2B2F39550085D63C /* MyListItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E31CC92B2F39550085D63C /* MyListItemsViewModel.swift */; };
 		50ED1A1F2B17E285005C161E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 50ED1A1E2B17E285005C161E /* Localizable.xcstrings */; };
 		50F2F67C292EBE9D00E6C0FA /* MyListItemsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F2F67B292EBE9D00E6C0FA /* MyListItemsHeaderView.swift */; };
 /* End PBXBuildFile section */
@@ -55,7 +61,13 @@
 		5085436D2910627D00D9381C /* NSColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColorTransformer.swift; sourceTree = "<group>"; };
 		5085436F291069B800D9381C /* MyListsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsViewModel.swift; sourceTree = "<group>"; };
 		5085437129106DFD00D9381C /* MyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewModel.swift; sourceTree = "<group>"; };
+		509B8E592B1B8BF20036A505 /* AddNewListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListItemView.swift; sourceTree = "<group>"; };
+		509B8E5B2B1B8E600036A505 /* DueDateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDateSelectionView.swift; sourceTree = "<group>"; };
+		509B8E5D2B1BA66D0036A505 /* MyListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItem.swift; sourceTree = "<group>"; };
+		509B8E5F2B1BB2470036A505 /* ListItemCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemCellView.swift; sourceTree = "<group>"; };
+		509B8E672B1FB5D60036A505 /* ListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemViewModel.swift; sourceTree = "<group>"; };
 		50C153DD2929337C00F42707 /* MyListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsView.swift; sourceTree = "<group>"; };
+		50E31CC92B2F39550085D63C /* MyListItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsViewModel.swift; sourceTree = "<group>"; };
 		50ED1A1E2B17E285005C161E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		50F2F67B292EBE9D00E6C0FA /* MyListItemsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,9 +121,9 @@
 				5085434229101E4300D9381C /* RemindersApp.swift */,
 				50ED1A1E2B17E285005C161E /* Localizable.xcstrings */,
 				5085434629101E4500D9381C /* Assets.xcassets */,
+				508543572910213800D9381C /* RemindersModel.xcdatamodeld */,
 				5085434B29101E4500D9381C /* Reminders.entitlements */,
 				5085434829101E4500D9381C /* Preview Content */,
-				508543572910213800D9381C /* RemindersModel.xcdatamodeld */,
 			);
 			path = Reminders;
 			sourceTree = "<group>";
@@ -141,6 +153,9 @@
 				50C153DD2929337C00F42707 /* MyListsView.swift */,
 				50F2F67B292EBE9D00E6C0FA /* MyListItemsHeaderView.swift */,
 				50201DC029339B9E00191587 /* MyListItemsView.swift */,
+				509B8E592B1B8BF20036A505 /* AddNewListItemView.swift */,
+				509B8E5B2B1B8E600036A505 /* DueDateSelectionView.swift */,
+				509B8E5F2B1BB2470036A505 /* ListItemCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +166,7 @@
 				5085435B2910226F00D9381C /* MyList.swift */,
 				50854363291028F200D9381C /* BaseModel.swift */,
 				50201DC429339E1900191587 /* DueDate.swift */,
+				509B8E5D2B1BA66D0036A505 /* MyListItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,6 +186,8 @@
 				5085436F291069B800D9381C /* MyListsViewModel.swift */,
 				5085437129106DFD00D9381C /* MyListViewModel.swift */,
 				50201DC229339CD900191587 /* MyListItemViewModel.swift */,
+				509B8E672B1FB5D60036A505 /* ListItemViewModel.swift */,
+				50E31CC92B2F39550085D63C /* MyListItemsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -219,7 +237,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					5085433E29101E4300D9381C = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -292,11 +310,17 @@
 				5085437229106DFD00D9381C /* MyListViewModel.swift in Sources */,
 				5085436B29104FE000D9381C /* Constants.swift in Sources */,
 				50854362291026FA00D9381C /* AddNewListViewModel.swift in Sources */,
+				509B8E682B1FB5D60036A505 /* ListItemViewModel.swift in Sources */,
+				509B8E602B1BB2470036A505 /* ListItemCellView.swift in Sources */,
 				5085435629101F9F00D9381C /* SideBarView.swift in Sources */,
+				509B8E5C2B1B8E600036A505 /* DueDateSelectionView.swift in Sources */,
 				5085436629102B8900D9381C /* AddNewListView.swift in Sources */,
 				5085436829104E7600D9381C /* ColorListView.swift in Sources */,
 				508543592910213800D9381C /* RemindersModel.xcdatamodeld in Sources */,
 				5085434329101E4300D9381C /* RemindersApp.swift in Sources */,
+				509B8E5A2B1B8BF20036A505 /* AddNewListItemView.swift in Sources */,
+				509B8E5E2B1BA66D0036A505 /* MyListItem.swift in Sources */,
+				50E31CCA2B2F39550085D63C /* MyListItemsViewModel.swift in Sources */,
 				5085435329101E8E00D9381C /* HomeScreen.swift in Sources */,
 				50201DC829339EC000191587 /* Date+Extensions.swift in Sources */,
 				50201DC529339E1900191587 /* DueDate.swift in Sources */,
@@ -315,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -378,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

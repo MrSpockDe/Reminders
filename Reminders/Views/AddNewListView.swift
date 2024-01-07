@@ -9,13 +9,15 @@ import SwiftUI
 
 struct AddNewListView: View {
 
-    @StateObject private var viewModel: Viewmodel
+    @StateObject private var viewModel = Viewmodel(context: CoreDataManager.shared.persistentContainer.viewContext)
     @Environment(\.dismiss) var dismiss
 
-    init() {
+    /*
+     init() {
         let viewModel = Viewmodel(context: CoreDataManager.shared.persistentContainer.viewContext)
         _viewModel = StateObject(wrappedValue: viewModel)
     }
+     */
 
     var body: some View {
         Form {
@@ -29,7 +31,7 @@ struct AddNewListView: View {
                 }
 
                 HStack {
-                    Text("Color")
+                    Text("Color:")
                     ColorListView(selectedColor: $viewModel.color)
                 }
             }

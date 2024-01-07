@@ -9,8 +9,7 @@ import SwiftUI
 
 struct MyListsView: View {
 
-    @StateObject var viewModel: MyListsViewModel = MyListsViewModel(
-        context: CoreDataManager.shared.persistentContainer.viewContext)
+    @StateObject var viewModel = Viewmodel(context: CoreDataManager.shared.persistentContainer.viewContext)
 
     /*init(vm: MyListsViewModel) {
         _vm = StateObject(wrappedValue: vm)
@@ -19,11 +18,18 @@ struct MyListsView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             List {
-                Text("My Lists")
-                ForEach(viewModel.myLists) { myList in
+                Text("\(viewModel.myLists.count)")
+                ForEach(viewModel.myLists, id: \.id) { myList in
                     NavigationLink {
-                        MyListItemsHeaderView(name: myList.name, count: 8, color: myList.color)
-                        MyListItemsView()
+                        MyListItemsHeaderView(name: myList.name, count: myList.itemsCount, color: myList.color)
+                        MyListItemsView(myListItemVM: myList.myListItemVM) /*
+                            items: myList.vmItems,
+                            onItemAdded: { title, dueDate in
+                                viewModel.saveTo(list: myList, title: title, dueDate: dueDate)
+                            },
+                            onItemDelete: { item in
+                                viewModel.deleteItem(item)
+                            })*/
                     } label: {
                         HStack {
                             Image(systemName: Constants.Icons.line3HorizontalCircleFill)

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ColorListView: View {
 
-    let colors: [Color] = [.red, .orange, .green, .blue, .purple]
+    let colors: [Color] = [.red, .orange, .green, .blue, .purple, .yellow]
     @Binding var selectedColor: Color
 
     var body: some View {

@@ -8,10 +8,10 @@
 import Foundation
 import CoreData
 
-struct MyListItemViewModel: Identifiable {
-    private let myListItem: MyListItem
+class MyListItemViewModel: ObservableObject, Identifiable {
+    @Published var myListItem: MyListItem
 
-    let id = UUID()
+    var id = UUID()
 
     init(myListItem: MyListItem) {
         self.myListItem = myListItem
@@ -35,5 +35,15 @@ struct MyListItemViewModel: Identifiable {
 
     var isComleted: Bool {
         myListItem.isCompleted
+    }
+
+    func updateItem(title: String, dueDate: Date?) {
+        myListItem.title = title
+        myListItem.dueDate = dueDate
+        do {
+            try myListItem.save()
+        } catch {
+            print("Could not save \(myListItem.title ?? "unknown title")")
+        }
     }
 }
